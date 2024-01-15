@@ -81,10 +81,62 @@ public class SimpleWordDictionary {
         SimpleWordDictionary dictionary = new SimpleWordDictionary();
 
         // Sample words
-        String[] sampleWords = {"apple", "banana", "avocado", "ball", "cat", "dog", "elephant"};
+        String[] aWords = {"Apple", "Adventure", "Atmosphere", "Acoustic", "Alligator", "Amethyst", "Avocado", "Astonish", "Astronomy", "Abundant"};
+        String[] bWords = {"Banana", "Brave", "Breeze", "Bubble", "Blossom", "Balloon", "Beacon", "Ballet", "Bonsai", "Blissful"};
+        String[] cWords = {"Cactus", "Cascade", "Crisp", "Calm", "Charm", "Celestial", "Cello", "Cerulean", "Cherish", "Cinnamon"};
+        String[] dWords = {"Dazzle", "Delight", "Dolphin", "Dream", "Dewdrop", "Diamond", "Dusk", "Divine", "Dainty", "Dragonfly"};
+        String[] eWords = {"Eagle", "Eclipse", "Elegant", "Enchant", "Emerald", "Endless", "Essence", "Evergreen", "Exquisite", "Ephemeral"};
+        String[] fWords = {"Fairy", "Flame", "Fiesta", "Frost", "Floral", "Firefly", "Fascinate", "Fable", "Feather", "Flicker"};
+        String[] gWords = {"Gazebo", "Glimmer", "Grace", "Gentle", "Galaxy", "Glisten", "Garnet", "Gentleman", "Giggly", "Glitter"};
+        String[] hWords = {"Harmony", "Heavenly", "Honey", "Harbor", "Hope", "Heartfelt", "Halcyon", "Haven", "Halo", "Hyacinth"};
+        String[] iWords = {"Imagine", "Infinite", "Inspire", "Ivory", "Island", "Illuminate", "Impulse", "Incandescent", "Ingenious", "Ineffable"};
+        String[] jWords = {"Jubilant", "Jade", "Journey", "Joyful", "Jazz", "Jasmine", "Jovial", "Jigsaw", "Jubilee", "Jocular"};
+        String[] kWords = {"Kaleidoscope", "Kindle", "Kinetic", "Keen", "Kismet", "Kale", "Kudos", "Kiss", "Kittens", "Knight"};
+        String[] lWords = {"Lagoon", "Luminous", "Lullaby", "Lavender", "Lively", "Lunar", "Luscious", "Lyric", "Labyrinth", "Lilac"};
+        String[] mWords = {"Majestic", "Mystic", "Moonlight", "Melody", "Mirth", "Magenta", "Mosaic", "Mellow", "Miracle", "Majesty"};
+        String[] nWords = {"Nebula", "Nectar", "Nirvana", "Noble", "Nurturing", "Nautical", "Novel", "Nuance", "Nebulous", "Nestle"};
+        String[] oWords = {"Orchid", "Opulent", "Oasis", "Oceanic", "Optimistic", "Ornate", "Outstanding", "Overcome", "Overjoyed", "Onyx"};
+        String[] pWords = {"Peach", "Pristine", "Petal", "Panorama", "Pleasure", "Ponder", "Panache", "Peaceful", "Perfume", "Pinnacle"};
+        String[] qWords = {"Quasar", "Quaint", "Quell", "Quest", "Quiver", "Quintessence", "Quirky", "Quiet", "Quintessential", "Quench"};
+        String[] rWords = {"Radiant", "Reverie", "Ripple", "Rustic", "Rendezvous", "Rhapsody", "Resplendent", "Rejoice", "Rose", "Rapture"};
+        String[] sWords = {"Serene", "Sapphire", "Serenade", "Symphony", "Sparkle", "Stellar", "Sublime", "Savor", "Sculpt", "Sylvan"};
+        String[] tWords = {"Tranquil", "Twilight", "Tender", "Tropical", "Talisman", "Tidal", "Traverse", "Timeless", "Tintinnabulation", "Treasure"};
+        String[] uWords = {"Umbra", "Utopia", "Unwind", "Uplift", "Utter", "Umbrella", "Unique", "Upbeat", "Universe", "Unity"};
+        String[] vWords = {"Velvet", "Vivid", "Vibrant", "Vanilla", "Valiant", "Vortex", "Verdant", "Verve", "Voyage", "Virtue"};
+        String[] wWords = {"Whisper", "Wander", "Wisp", "Willow", "Wavelength", "Wondrous", "Wishful", "Waltz", "Wonder", "Wildflower"};
+        String[] xWords = {"Xanadu", "Xylophone", "Xenon", "Xeric", "X-factor", "Xenial", "Xenophobe", "Xanthein", "Xenagogue", "Xerox"};
+        String[] yWords = {"Yearning", "Yonder", "Yoga", "Yummy", "Yield", "Yarn", "Yonder", "Yaffle", "Yoga", "Yonder"};
+        String[] zWords = {"Zephyr", "Zenith", "Zeal", "Zest", "Zing", "Zircon", "Zestful", "Zen", "Zeppelin", "Zany"};
 
         // Add words to the dictionary
-        dictionary.addWords(sampleWords);
+        dictionary.addWords(aWords);
+        dictionary.addWords(bWords);
+        dictionary.addWords(cWords);
+        dictionary.addWords(dWords);
+        dictionary.addWords(eWords);
+        dictionary.addWords(fWords);
+        dictionary.addWords(gWords);
+        dictionary.addWords(hWords);
+        dictionary.addWords(iWords);
+        dictionary.addWords(jWords);
+        dictionary.addWords(kWords);
+        dictionary.addWords(lWords);
+        dictionary.addWords(mWords);
+        dictionary.addWords(nWords);
+        dictionary.addWords(oWords);
+        dictionary.addWords(pWords);
+        dictionary.addWords(qWords);
+        dictionary.addWords(rWords);
+        dictionary.addWords(sWords);
+        dictionary.addWords(tWords);
+        dictionary.addWords(uWords);
+        dictionary.addWords(vWords);
+        dictionary.addWords(wWords);
+        dictionary.addWords(xWords);
+        dictionary.addWords(yWords);
+        dictionary.addWords(zWords);
+        // Add words to the dictionary
+        dictionary.addWords(xWords);
 
         // Print all letters and corresponding words
         System.out.println("All Letters and Words:");
